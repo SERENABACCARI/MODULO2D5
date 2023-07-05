@@ -5,14 +5,14 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-function crazySum(a,b) {
-    return a+b
+function crazySum(a,b) {               //funzione crazysum con a,b//
+    return a+b                         //a+b e se a=b moltiplico il valore per 3//
     if(a=b){
-        return a+b*3
+        return (a+b)*3
     }   
 }
 
-const result= 1+1
+const result= crazySum(1,1)
 console.log(result)
 
 const somma=2*3
@@ -22,26 +22,34 @@ console.log(somma)
  Scrivi una funzione chiamata "boundary", che accetta un numero intero come parametro e ritorna true se tale parametro è incluso tra 20 e 100 (incluso) o se è esattamente uguale a 400.
 */
 
-const boundary="30" 
-
-  if(30=true)  {
-    console.log(true)
-
-  }else (30==400) {
-    
-    console.log
-  }
-    
-
-
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const boundary = "20 e 100"
+
+if(400==400)
+
+//if (30 = true) {
+  //console.log(true)
+
+//} else { (30 == 400) }//
+
+console.log(boundary.includes("400"))
+console.log()
+
+
 
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "reverseString", che accetta una stringa come parametro e la ritorna invertita (es.: EPICODE => EDOCIPE).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+function reverseString (EPICODE){
+  return EPICODE.split("").reverseString
+}
+console.log(reverseString)
+
+
 
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo maiuscola ogni lettera iniziale di ogni parola.
