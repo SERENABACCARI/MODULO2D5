@@ -5,10 +5,35 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+function crazySum(a,b) {
+    return a+b
+    if(a=b){
+        return a+b*3
+    }   
+}
+
+const result= 1+1
+console.log(result)
+
+const somma=2*3
+console.log(somma)
 
 /* ESERCIZIO 2
  Scrivi una funzione chiamata "boundary", che accetta un numero intero come parametro e ritorna true se tale parametro è incluso tra 20 e 100 (incluso) o se è esattamente uguale a 400.
 */
+
+const boundary="30" 
+
+  if(30=true)  {
+    console.log(true)
+
+  }else (30==400) {
+    
+    console.log
+  }
+    
+
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
